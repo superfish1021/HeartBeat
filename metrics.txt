@@ -1,0 +1,42 @@
+训练设置
+Epochs: 40/40
+Best Validation Macro F1: 0.9838
+Class Weight Power: 0.5
+Label Smoothing: 0.03
+Sample Normalization: True
+Train Augmentation: True
+
+最终测试结果
+Accuracy: 0.9935
+Macro Precision: 0.9888
+Macro Recall: 0.9759
+Macro F1: 0.9822
+ABS-SUM: 2216.3587
+Mean ABS-SUM: 0.110818
+
+分类报告
+              precision    recall  f1-score   support
+
+           0     0.9931    0.9971    0.9951     12866
+           1     0.9689    0.9185    0.9430       712
+           2     0.9951    0.9912    0.9931      2840
+           3     0.9980    0.9969    0.9975      3582
+
+    accuracy                         0.9935     20000
+   macro avg     0.9888    0.9759    0.9822     20000
+weighted avg     0.9934    0.9935    0.9934     20000
+
+
+混淆矩阵
+[[12829    19    13     5]
+ [   58   654     0     0]
+ [   21     2  2815     2]
+ [   10     0     1  3571]]
+
+
+ 训练输出
+ /home/lxy/ZuoYe/heart_Iden/checkpoints/best_cnn_model.pt
+/home/lxy/ZuoYe/heart_Iden/outputs/metrics.txt
+/home/lxy/ZuoYe/heart_Iden/figures/training_curve.png
+/home/lxy/ZuoYe/heart_Iden/figures/f1_curve.png
+/home/lxy/ZuoYe/heart_Iden/figures/confusion_matrix.png
